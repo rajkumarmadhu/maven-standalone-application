@@ -20,7 +20,7 @@
 	<properties>
 		<sonar.host.url>http://64.227.139.1:30003/</sonar.host.url>
 		<sonar.login>cloudopsone</sonar.login>
-		<sonar.password>Sonar@yoga2025</sonar.password>
+		<sonar.password>SonarQube1@cloudops</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
