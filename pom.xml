@@ -18,11 +18,10 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://64.227.139.1:30003/</sonar.host.url>
-		<sonar.login>cloudopsone</sonar.login>
-		<sonar.password>SonarQube1@cloudops</sonar.password>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+            <sonar.host.url>http://64.227.139.1:30003/</sonar.host.url>
+            <sonar.token>${env.SONAR_AUTH_TOKEN}</sonar.token>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+        </properties>
 
 	<dependencies>
 
